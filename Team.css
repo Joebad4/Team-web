@@ -1,0 +1,286 @@
+*{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  max-width: 100%;
+}
+
+body{
+  background-image: url(Team\ photo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.logo{
+  width: 80px;
+  height: 75px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+.header{
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(0, 1, 5);
+  color: white;
+}
+.headd{
+  margin-left: 200px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.options{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 1, 5);
+  width: 10%;
+  height: 100%;
+  margin-left: 90%;
+}
+.info{
+  margin-top: 50px;
+  margin-left: 10px;
+  height: 40px;
+  width: 80px;
+  border: 2px solid;
+  border-radius: 20px;
+}
+.info:hover, .matches:hover, .contact:hover{
+  background-color: black;
+  color: white;
+  border-color: white;
+  transition: 1.5s;
+}
+.matches{
+  margin-top: 30px;
+  margin-left: 10px;
+  height: 40px;
+  width: 80px;
+  border: 2px solid;
+  border-radius: 20px;
+}
+.contact{
+  margin-top: 20px;
+  margin-left: 10px;
+  height: 40px;
+  width: 80px;
+  border: 2px solid;
+  border-radius: 20px;
+}
+button{
+  cursor: pointer;
+}
+
+/*This is where the Team.html ends*/
+
+/*Info Starts Here*/
+.abt-head{
+  border: 5px solid;
+  width: 57%;
+  height: 20%;
+  background-color: rgb(0, 0, 5);
+  color: white;
+  padding-left: 420px;
+  padding-top: 40px;
+  font-size: 50px;
+  position: absolute;
+}
+.home-p{
+  background-color: red;
+  width: 80px;
+  height: 30px;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 50px;
+  border: 2px solid rgb(6, 4, 42);
+  background-color: white;
+  color: rgb(3, 3, 25);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+.next-p{
+  background-color: white;
+  color: rgb(3, 3, 25);
+  border: 2px solid rgb(6, 4, 42);
+  width: 80px;
+  height: 30px;
+  position: relative;
+  margin-top: -60px;
+  margin-left: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+.home-p:hover, .next-p:hover{
+  background-color: rgb(3, 3, 23);
+  color: white;
+  border-color: white;
+  transition: 1.5s;
+}
+.para-div{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+  gap: 20px;
+  font-size: 15px;
+  background-color: transparent;
+  background-color: rgb(241, 244, 244);
+  border: 5px solid rgb(3, 0, 0);
+
+}
+.para, .para-2, .para-3{
+}
+
+/*This is for Matches*/
+
+
+.match{
+  max-width: 80%;
+  height: 100vh;
+ background-color: rgb(4, 4, 32);
+}
+.fixture{
+  width: 80%;
+  height: 20%;
+  background-color: rgb(9, 1, 33);
+  padding-left: 400px;
+  padding-top: 40px;
+  color: white;
+  position: absolute;
+}
+
+.container{
+  width: 300px;
+  height: 300px;
+}
+.teampic{
+  display: grid;
+  grid-template-columns: 500px 500px;
+  margin-top: 2px;
+  gap: 20px;
+  padding-left: 10px;
+}
+.tt1, .tt2{
+  border: 5px solid rgb(7, 9, 61);
+  border-radius: 10px;
+}
+.match-1, .match-2, .match-3, .match-4, .match-5{
+  display: grid;
+  grid-template-columns: 300px 300px;
+  gap: 20px;
+  margin-top: 50px;
+  margin-left: 200px;
+  height: 100px;
+}
+.match-1{
+  margin-top: 300px;
+}
+.m1, .m2, .m3, .m4, .m5{
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  padding-left: 10px;
+  color: white;
+}
+
+.m1, .im1{
+  border: 5px solid white;
+  height: 300px;
+  width: 350px;
+  border-radius: 15px;
+}
+.m2, .im2{
+  border: 5px solid  white;
+  height: 300px;
+  width: 350px;
+  margin-top: 170px;
+  border-radius: 15px;
+}
+.m3, .im3{
+  border: 5px solid  white;
+  height: 300px;
+  width: 350px;
+  margin-top: 340px;
+  border-radius: 15px;
+}
+.m4, .im4{
+  border: 5px solid white;
+  height: 300px;
+  width: 350px;
+  margin-top: 510px;
+  border-radius: 15px;
+}
+.m5, .im5{
+  border: 5px solid white;
+  height: 300px;
+  width: 350px;
+  margin-top: 680px;
+  border-radius: 15px;
+}
+
+
+/*THIS IS FOR THE FORM*/
+.body-form{
+  width: 100%;
+  height: 100%;
+}
+
+.contact-head{
+  width: 100%;
+  height: 15%;
+  background-color: rgb(4, 4, 36);
+  color: white;
+  padding-left: 350px;
+  padding-top: 50px;
+  position: absolute;
+}
+.form-info{
+  width: 40%;
+  height: 80%;
+  border: 5px solid white;
+  margin-left: 250px;
+  position: absolute;
+  background-color: rgb(4, 4, 36);
+  border-radius: 20px;
+  margin-top: 55px;
+}
+form{
+  width: 50px;
+  height: 20px;
+  font-size: 15px;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding-top: 20px;
+}
+label{
+  color: white;
+  padding-left: 50px;
+}
+#submit{
+  margin-left: 60px;
+  border: 2px solid white;
+  padding: 10px auto;
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(7, 7, 43);
+  font-size: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#submit:hover{
+  background-color: white;
+  color: rgb(7, 7, 43);
+  border-color: white;
+  transition: 1.5s;
+}
+ 
+/*FOR THE NAV BAR*/

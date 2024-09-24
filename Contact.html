@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Team.css">
+  <title>Contacts</title>
+</head>
+<body class="body-form">
+  <h1 class="contact-head">CONTACT US</h1>
+  <a href="Team.html"><button class="home-p">Home</button></a>
+  <a href="Match.html"><button class="next-p">Back</button></a>
+  <div class="form-info">
+  <form action="Submit">
+      <label for="first-name">Name:</label>
+      <input type="text" name="first-name" id="first-name">
+
+      <label for="last-name">Last Name:</label>
+      <input type="text" name="last-name" id="last-name">
+
+      <label for="previous-team">Previous Team:</label>
+      <input type="text" name="previous-team" id="previous-team">
+
+      <label for="current-name">Current Team:</label>
+      <input type="text" name="current-team" id="current-team">
+      
+      <label for="age">Age Range:</label>
+      <select id="age" name="age">
+        <option value="5-8">5-8</option>
+        <option value="9-12">9-12</option>
+        <option value="13-15">13-15</option>
+        <option value="16-18">16-18</option>
+        <option value="18+">18+</option>
+      </select>
+      
+      <label for="player-position">Position:</label>
+      <input type="text" id="position" name="player-position">
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email">
+
+      <label for="player-bio">Enquire:</label>
+      <textarea id="bio" placeholder="About you" cols="50" rows="10"></textarea>
+
+      <input type="submit" value="Submit" id="submit">
+      
+      </form>
+</div>
+  
+
+</body>
+</html>
